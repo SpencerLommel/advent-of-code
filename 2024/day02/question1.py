@@ -29,6 +29,7 @@ with open("input.txt", "r") as file:
         numbers = line.split()
         if is_monotonic_and_in_range(numbers):
             safe_reports += 1
-    print(safe_reports)
+    print(f'There are {safe_reports} safe reports!')
+
         
         
